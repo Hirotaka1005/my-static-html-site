@@ -2,7 +2,7 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #ffffff; /* 白背景 */
-    color: #333333; /* 濃いグレー（真っ黒より読みやすいため） */
+    color: #333333; /* グレー */
     margin: 0;
     padding: 0;
     line-height: 1.8;
@@ -19,7 +19,7 @@ body {
     margin: 0;
     font-size: 24px;
     color: #111111;
-    letter-spacing: 2px; /* 文字の間隔を少し広げてスッキリ見せる */
+    letter-spacing: 2px; /* 文字の間隔を広げる */
 }
 
 /* メインの文章が入る部分 */
@@ -68,6 +68,6 @@ li {
     border: 1px solid #333333; /* 黒い実線 */
     text-align: center;
     font-weight: bold;
-    background-color: #fafafa; /* ほんの少しだけグレーにして目立たせる */
+    background-color: #fafafa; 
     font-size: 0.9em;
 }
