@@ -1,55 +1,73 @@
-/* ページ設定 */
+/* ページ全体の設定 */
 body {
-    font-family: sans-serif;
-    background-color: #f0f8ff; /* 薄い水色 */
-    color: #333333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff; /* 白背景 */
+    color: #333333; /* 濃いグレー（真っ黒より読みやすいため） */
     margin: 0;
     padding: 0;
+    line-height: 1.8;
 }
 
-/* 一番上の部分 */
+/* 一番上のタイトル部分 */
 .header {
-    background-color: #4682b4; /* 青色 */
-    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px 20px;
+    border-bottom: 1px solid #eeeeee; /* 薄いグレーの下線 */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #111111;
+    letter-spacing: 2px; /* 文字の間隔を少し広げてスッキリ見せる */
 }
 
 /* メインの文章が入る部分 */
 .main {
-    width: 80%; /* 画面の80%の幅にする */
-    margin: 20px auto; /* 画面の中央に配置する */
-    background-color: white;
-    padding: 30px;
-    border: 1px solid #cccccc;
+    width: 85%;
+    max-width: 800px; /* 画面が大きすぎても広がりすぎないように */
+    margin: 40px auto;
 }
 
 /* 見出しの設定 */
 h2 {
-    color: #4682b4;
-    border-bottom: 2px solid #4682b4;
-    padding-bottom: 5px;
+    color: #111111;
+    border-bottom: 1px solid #333333; /* 黒い下線 */
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
-/* IaaSなどを囲む枠組 */
+/* IaaSなどを囲む四角い枠 */
 .box {
-    background-color: #e6e6fa; 
-    padding: 15px;
+    background-color: #ffffff;
+    padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid #999999;
+    border: 1px solid #dddddd; /* 薄いグレーの囲み線 */
 }
 
 .box h3 {
     margin-top: 0;
-    color: #333333;
+    color: #111111;
+    font-size: 18px;
+}
+
+/* リストの設定 */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
 }
 
 /* レポートの変更確認用の枠 */
 .notice {
-    background-color: #ffffcc; /* 薄い黄色 */
-    padding: 10px;
-    border: 2px dashed #ff0000; /* 赤い点線 */
+    margin-top: 60px;
+    padding: 15px;
+    border: 1px solid #333333; /* 黒い実線 */
     text-align: center;
     font-weight: bold;
-    margin-top: 40px;
+    background-color: #fafafa; /* ほんの少しだけグレーにして目立たせる */
+    font-size: 0.9em;
 }
