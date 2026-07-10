@@ -1,4 +1,4 @@
-/* ページ全体の設定 */
+/* ページ設定 */
 body {
     font-family: sans-serif;
     background-color: #f0f8ff; /* 薄い水色 */
@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* 一番上のタイトル部分 */
+/* 一番上の部分 */
 .header {
     background-color: #4682b4; /* 青色 */
     color: white;
